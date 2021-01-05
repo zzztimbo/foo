@@ -1,0 +1,24 @@
+feature:
+  - feature/*
+  - feat/*
+bugfix:
+  - fix/*
+  - bugfix/*
+style:
+  - style/*
+documentation:
+  - docs/*
+performance:
+  - perf/*
+  - performance/*
+refactor:
+  - refactor/*
+test:
+  - test/*
+  - testing/*
+build:
+  - build/*
+improvement:
+  - improvement/*
+chore:
+  - chore/*
