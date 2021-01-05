@@ -4,16 +4,21 @@ feature:
 bugfix:
   - fix/*
   - bugfix/*
-style: style/*
-documentation: docs/*
+style:
+  - style/*
+documentation:
+  - docs/*
 performance:
   - perf/*
   - performance/*
-refactor: refactor/*
+refactor:
+  - refactor/*
 test:
   - test/*
   - testing/*
-build: build/*
-improvement: improvement/*
-chore: chore/*
-
+build:
+  - build/*
+improvement:
+  - improvement/*
+chore:
+  - chore/*
