@@ -1,0 +1,49 @@
+name-template: v$RESOLVED_VERSION
+tag-template: v$RESOLVED_VERSION
+categories:
+  - title: ⚠ Breaking Changes
+    label: breaking change
+  - title: "\U0001F680 Features"
+    label: feature
+  - title: "\U0001F60E Refactor"
+    label: refactor
+  - title: "\U0001F685 Performance"
+    label: performance
+  - title: "\U0001F41B Bug Fixes"
+    label: bugfix
+  - title: "\U0001F9F0 Maintenance"
+    labels:
+      - chore
+      - build
+  - title: "\U0001F9EA Tests"
+    labels:
+      - test
+      - testing
+      - tests
+  - title: "\U0001F308 Style"
+    label: style
+  - title: "\U0001F4D5 Documentation"
+    label: documentation
+change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
+change-title-escapes: \<*_&
+version-resolver:
+  major:
+    labels:
+      - major
+      - breaking change
+  minor:
+    labels:
+      - minor
+      - feature
+  patch:
+    labels:
+      - patch
+      - bugfix
+      - test
+      - documentation
+      - style
+      - chore
+      - build
+  default: patch
+template: |
+  $CHANGES
